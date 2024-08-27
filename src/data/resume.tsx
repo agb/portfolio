@@ -193,6 +193,7 @@ Some customers: Kumamoto City, Miyazaki City, and Okayama
         },
       ],
       image: "/portfolio/minimal-product-page.png",
+      video: "",
     },
     {
       title: "HackerRank Solutions",
@@ -209,6 +210,7 @@ Some customers: Kumamoto City, Miyazaki City, and Okayama
         },
       ],
       image: "/portfolio/hackerrank-cover.png",
+      video: "",
     },
     {
       title: "Tokyo COVID-19 Call Center Data",
@@ -226,6 +228,7 @@ Some customers: Kumamoto City, Miyazaki City, and Okayama
         },
       ],
       image: "/portfolio/tokyo-open-data.png",
+      video: "",
     },
     {
       title: "Suregym | Homepage",
@@ -278,6 +281,7 @@ Some customers: Kumamoto City, Miyazaki City, and Okayama
         },
       ],
       image: "/portfolio/bilgius-c++-questions.png",
+      video: "",
     },
   ],
   hackathons: [],
