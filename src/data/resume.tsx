@@ -179,12 +179,12 @@ Some customers: Kumamoto City, Miyazaki City, and Okayama
   projects: [
     {
       title: "Minimalist Product Page",
-      href: "https://github.com/agb/hackerrank-typescript-solutions",
+      href: "https://github.com/agb/minimalist-popular-product-page",
       dates: "Sep 2023 - Nov 2023",
       active: false,
       description:
         "Minimalist Popular Page written with the Angular framework.",
-      technologies: ["Typescript", "Javascript", "Angular", "TailwindCSS"],
+      technologies: ["Typescript", "Angular", "TailwindCSS"],
       links: [
         {
           type: "Github",
@@ -219,7 +219,7 @@ Some customers: Kumamoto City, Miyazaki City, and Okayama
       active: false,
       description:
         "Daily, monthly, and weekly consultation count data and you can see calendar, line, and pie chart views as count data",
-      technologies: ["Typescript", "Javascript", "React", "TailwindCSS"],
+      technologies: ["Typescript", "React", "TailwindCSS"],
       links: [
         {
           type: "Github",
