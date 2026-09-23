@@ -9,7 +9,7 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/osaka",
   description: "アリと申します。よろしくお願いします。",
   summary:
-    "Starting as a designer, then moving on to front-end, back-end, and eventually full-stack development. I even took the leap into entrepreneurship. Now, I'm working as an AI Engineer at a Japanese company in Osaka.",
+    "I started as a designer, then moved into front-end, back-end, and full-stack development before transitioning into AI engineering. Along the way, I also took the leap into entrepreneurship. Today, I work as an AI Engineer at a Japanese company in Osaka.",
   avatarUrl: "/portfolio/me.png",
   skills: [
     "React",
