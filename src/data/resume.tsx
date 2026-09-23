@@ -61,6 +61,21 @@ export const DATA = {
 
   work: [
     {
+      company: "Zengate Global",
+      href: "https://www.zengate.global/",
+      badges: [],
+      location: "Osaka, Japan",
+      title: "Full-stack Engineer",
+      logoUrl: "/portfolio/zengate-global.png",
+      start: "April 2025",
+      end: "PRESENT",
+      description: `
+      Zengate Global is a global company building decentralized systems using blockchain technology, aiming to redefine digital trust and expand access to financial tools.
+
+      I worked as a full-stack engineer at Zengate Global, building decentralized web applications using blockchain technology.
+`,
+    },
+    {
       company: "Shiftplus Inc.",
       href: "https://www.shiftplus.co.jp/",
       badges: [],
@@ -68,7 +83,7 @@ export const DATA = {
       title: "Front-end Engineer",
       logoUrl: "/portfolio/shiftplus.svg",
       start: "Feb 2022",
-      end: "PRESENT",
+      end: "Mar 2025",
       description: `2022-08 - PRESENT | OTETSUZUKI
 OTETSUZUKI is an application that digitizes an organization or municipality's physical (printed) forms. The organization or municipality can freely fill out the desired form, verify it using the MyNumberCard if they wish, and accept payments through the created form.
 
