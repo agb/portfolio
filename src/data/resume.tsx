@@ -9,14 +9,19 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/osaka",
   description: "アリと申します。よろしくお願いします。",
   summary:
-    "Starting as a designer, then moving on to front-end, back-end, and eventually full-stack development. I even took the leap into entrepreneurship. Now, I'm working as a front-end engineer at a Japanese company in Osaka.",
+    "I started as a designer, then moved into front-end, back-end, and full-stack development before transitioning into AI engineering. Along the way, I also took the leap into entrepreneurship. Today, I work as an AI Engineer at a Japanese company in Osaka.",
   avatarUrl: "/portfolio/me.png",
   skills: [
     "React",
     "Next.js",
     "Angular",
     "Typescript",
-    "Web Applications",
+    "AI",
+    "AI Workflow",
+    "RAG",
+    "Automation",
+    "Harness Engineering",
+    "Web and Mobile Applications",
     "UI/UX",
     "Docker",
     "Git",
@@ -61,6 +66,47 @@ export const DATA = {
 
   work: [
     {
+      company: "Japan AI Consulting",
+      href: "https://japan-ai-consulting.com/",
+      badges: [],
+      location: "Japan",
+      title: "AI Engineer",
+      logoUrl: "/portfolio/jaic.png",
+      start: "Apr 2026",
+      end: "PRESENT",
+      description: `Japan AI Consulting supports businesses in using AI and generative AI to improve operations, increase productivity, and make better data-driven decisions.
+
+Responsibilities:
+
+　　● Acted as a sub-leader in a multicultural team
+　　● Improved product UI and helped define design direction
+　　● Worked on architectural improvements for AI products
+　　● Contributed to strengthening and improving the organizational structure
+
+Notable Clients: Toyota Japan, Daikin, Microsoft Japan, Deel Japan`,
+    },
+    {
+      company: "Hito.run",
+      href: "https://hito.run/",
+      badges: [],
+      location: "Japan",
+      title: "Founder",
+      logoUrl: "/portfolio/hito-run.png",
+      start: "May 2026",
+      end: "Sep 2026",
+      description: `A platform for building autonomous AI workforce with minimal setup and automated management.
+
+Sunset the project after OpenAI and Claude Code introduced native autonomous agent capabilities that significantly overlapped with the core harness layer.
+
+Responsibilities:
+
+　　● Developed the agent harness and autonomous execution workflows
+　　● Full-stack development (frontend, backend, database, infrastructure)
+　　● System architecture and cloud/server management
+　　● Billing, authentication, deployment operations
+　　● Product ownership as solo founder`,
+    },
+    {
       company: "Zengate Global",
       href: "https://www.zengate.global/",
       badges: [],
@@ -68,7 +114,7 @@ export const DATA = {
       title: "Full-stack Engineer",
       logoUrl: "/portfolio/zengate-global.png",
       start: "April 2025",
-      end: "PRESENT",
+      end: "May 2026",
       description: `
       Zengate Global is a global company building decentralized systems using blockchain technology, aiming to redefine digital trust and expand access to financial tools.
 
@@ -191,113 +237,5 @@ Some customers: Kumamoto City, Miyazaki City, and Okayama
     },
   ],
   education: [],
-  projects: [
-    {
-      title: "Minimalist Product Page",
-      href: "https://github.com/agb/minimalist-popular-product-page",
-      dates: "Sep 2023 - Nov 2023",
-      active: false,
-      description:
-        "Minimalist Popular Page written with the Angular framework.",
-      technologies: ["Typescript", "Angular", "TailwindCSS"],
-      links: [
-        {
-          type: "Github",
-          href: "https://github.com/agb/minimalist-popular-product-page",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/portfolio/minimal-product-page.png",
-      video: "",
-    },
-    {
-      title: "HackerRank Solutions",
-      href: "https://github.com/agb/hackerrank-typescript-solutions",
-      dates: "Sep 2023 ~",
-      active: true,
-      description: "HackerRank 3 Months Preparation Kit Solutions",
-      technologies: ["Typescript", "Javascript"],
-      links: [
-        {
-          type: "Github",
-          href: "https://github.com/agb/hackerrank-typescript-solutions",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/portfolio/hackerrank-cover.png",
-      video: "",
-    },
-    {
-      title: "Tokyo COVID-19 Call Center Data",
-      href: "https://github.com/agb/tokyo-covid19-call-center-statistic",
-      dates: "July 2022 ~ July 2022",
-      active: false,
-      description:
-        "Daily, monthly, and weekly consultation count data and you can see calendar, line, and pie chart views as count data",
-      technologies: ["Typescript", "React", "TailwindCSS"],
-      links: [
-        {
-          type: "Github",
-          href: "https://github.com/agb/hackerrank-typescript-solutions",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/portfolio/tokyo-open-data.png",
-      video: "",
-    },
-    {
-      title: "Suregym | Homepage",
-      href: "https://suregym.com/",
-      dates: "July 2022 - Oct 2022",
-      active: false,
-      description: "Suregym is a Tokyo-based gym that is open 24 hours.",
-      technologies: ["HTML", "CSS", "Javascript", "Bootstrap", "jQuery"],
-      links: [
-        {
-          type: "Website",
-          href: "https://suregym.com/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "/portfolio/suregym-homepage.mp4",
-    },
-    {
-      title: "Suregym | Kuki Branch",
-      href: "https://suregym.com/kuki",
-      dates: "Feb 2022 - July 2022",
-      active: false,
-      description:
-        "Designed, developed and sold animated UI components for Suregym.",
-      technologies: ["HTML", "CSS", "Javascript", "Bootstrap", "jQuery"],
-      links: [
-        {
-          type: "Website",
-          href: "https://suregym.com/kuki",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "/portfolio/suregym-kuki-branch.mp4",
-    },
-    {
-      title: "C++ Programming Language Questions",
-      href: "https://github.com/agb/bilgius-programlama-derslerim",
-      dates: "Jan 2021 - Jan 2021",
-      active: false,
-      description:
-        "Designed, developed and sold animated UI components for Suregym.",
-      technologies: ["C++"],
-      links: [
-        {
-          type: "Github",
-          href: "https://github.com/agb/bilgius-programlama-derslerim",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/portfolio/bilgius-c++-questions.png",
-      video: "",
-    },
-  ],
   hackathons: [],
 } as const;
